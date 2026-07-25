@@ -1,0 +1,29 @@
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor files
+*.swp
+*.swo
+*~
+.vscode/
+.idea/
+
+# Secrets — NEVER commit these
+.env
+credentials
+*.pem
+*.key
+
+# Output / logs
+*.log
+output/
+recon_results/
+
+# Python
+__pycache__/
+*.pyc
+
+# Temporary files
+/tmp/
+*.tmp
